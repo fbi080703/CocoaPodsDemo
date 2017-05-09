@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1842B91D1EC1F316000DC5C8 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842B91C1EC1F316000DC5C8 /* Test.m */; };
 		370F38E61EC0401500475B3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F38E51EC0401500475B3B /* main.m */; };
 		370F38E91EC0401500475B3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F38E81EC0401500475B3B /* AppDelegate.m */; };
 		370F38EC1EC0401500475B3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F38EB1EC0401500475B3B /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1842B91B1EC1F316000DC5C8 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		1842B91C1EC1F316000DC5C8 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		370F38E11EC0401500475B3B /* CocoaPodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370F38E51EC0401500475B3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		370F38E71EC0401500475B3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				370F38F21EC0401500475B3B /* LaunchScreen.storyboard */,
 				370F38F51EC0401500475B3B /* Info.plist */,
 				370F38E41EC0401500475B3B /* Supporting Files */,
+				1842B91B1EC1F316000DC5C8 /* Test.h */,
+				1842B91C1EC1F316000DC5C8 /* Test.m */,
 			);
 			path = CocoaPodsDemo;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				370F38EC1EC0401500475B3B /* ViewController.m in Sources */,
+				1842B91D1EC1F316000DC5C8 /* Test.m in Sources */,
 				370F38E91EC0401500475B3B /* AppDelegate.m in Sources */,
 				370F38E61EC0401500475B3B /* main.m in Sources */,
 			);

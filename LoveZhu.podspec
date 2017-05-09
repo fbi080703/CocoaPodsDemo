@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
     spec.name                  = 'LoveZhu'
-    spec.version               = '1.0.1'
+    spec.version               = '1.0.3'
     spec.ios.deployment_target = '8.0'
     spec.license               = 'MIT'
     spec.homepage              = 'https://github.com/fbi080703'
