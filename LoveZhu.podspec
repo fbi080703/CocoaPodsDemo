@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
     spec.author                = { "wulongwang" => "747616044@qq.com" }
     spec.summary               = '测试'
     spec.source                = { :git => 'https://github.com/fbi080703/CocoaPodsDemo.git', :tag => spec.version }
-    spec.source_files          = "CocoaPodsDemo/**/{*.h,*.m}"
-    spec.resources             = "CocoaPodsDemo/Resources/*.png"
+    spec.source_files          = "Classes/{*.h,*.m}"
+    spec.resources             = "Classes/Resources/*.png"
 #spec.resource_bundles = {
 #'CocoaPodsDemo' => ['Resources/*.png']
 #'CocoaPodsDemo' => ['CocoaPodsDemo/Resources/*.png']

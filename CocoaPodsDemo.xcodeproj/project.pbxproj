@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1842B91D1EC1F316000DC5C8 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842B91C1EC1F316000DC5C8 /* Test.m */; };
+		1842B9231EC1FF5E000DC5C8 /* iOS_Network.png in Resources */ = {isa = PBXBuildFile; fileRef = 1842B9201EC1FF5E000DC5C8 /* iOS_Network.png */; };
+		1842B9241EC1FF5E000DC5C8 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842B9221EC1FF5E000DC5C8 /* Test.m */; };
 		370F38E61EC0401500475B3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F38E51EC0401500475B3B /* main.m */; };
 		370F38E91EC0401500475B3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F38E81EC0401500475B3B /* AppDelegate.m */; };
 		370F38EC1EC0401500475B3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F38EB1EC0401500475B3B /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		370F38F41EC0401500475B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370F38F21EC0401500475B3B /* LaunchScreen.storyboard */; };
 		370F38FF1EC0401500475B3B /* CocoaPodsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F38FE1EC0401500475B3B /* CocoaPodsDemoTests.m */; };
 		370F390A1EC0401500475B3B /* CocoaPodsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F39091EC0401500475B3B /* CocoaPodsDemoUITests.m */; };
-		37B09EBC1EC0655D00B04C32 /* iOS_Network.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B09EBB1EC0655D00B04C32 /* iOS_Network.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1842B91B1EC1F316000DC5C8 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		1842B91C1EC1F316000DC5C8 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		1842B9201EC1FF5E000DC5C8 /* iOS_Network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Network.png; sourceTree = "<group>"; };
+		1842B9211EC1FF5E000DC5C8 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		1842B9221EC1FF5E000DC5C8 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		370F38E11EC0401500475B3B /* CocoaPodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370F38E51EC0401500475B3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		370F38E71EC0401500475B3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		370F39051EC0401500475B3B /* CocoaPodsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaPodsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370F39091EC0401500475B3B /* CocoaPodsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsDemoUITests.m; sourceTree = "<group>"; };
 		370F390B1EC0401500475B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37B09EBB1EC0655D00B04C32 /* iOS_Network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Network.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1842B91E1EC1FF5E000DC5C8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1842B91F1EC1FF5E000DC5C8 /* Resources */,
+				1842B9211EC1FF5E000DC5C8 /* Test.h */,
+				1842B9221EC1FF5E000DC5C8 /* Test.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1842B91F1EC1FF5E000DC5C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1842B9201EC1FF5E000DC5C8 /* iOS_Network.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		370F38D81EC0401500475B3B = {
 			isa = PBXGroup;
 			children = (
+				1842B91E1EC1FF5E000DC5C8 /* Classes */,
 				370F38E31EC0401500475B3B /* CocoaPodsDemo */,
 				370F38FD1EC0401500475B3B /* CocoaPodsDemoTests */,
 				370F39081EC0401500475B3B /* CocoaPodsDemoUITests */,
@@ -106,7 +125,6 @@
 		370F38E31EC0401500475B3B /* CocoaPodsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				37B09EB81EC05E2900B04C32 /* Resources */,
 				370F38E71EC0401500475B3B /* AppDelegate.h */,
 				370F38E81EC0401500475B3B /* AppDelegate.m */,
 				370F38EA1EC0401500475B3B /* ViewController.h */,
@@ -116,8 +134,6 @@
 				370F38F21EC0401500475B3B /* LaunchScreen.storyboard */,
 				370F38F51EC0401500475B3B /* Info.plist */,
 				370F38E41EC0401500475B3B /* Supporting Files */,
-				1842B91B1EC1F316000DC5C8 /* Test.h */,
-				1842B91C1EC1F316000DC5C8 /* Test.m */,
 			);
 			path = CocoaPodsDemo;
 			sourceTree = "<group>";
@@ -146,14 +162,6 @@
 				370F390B1EC0401500475B3B /* Info.plist */,
 			);
 			path = CocoaPodsDemoUITests;
-			sourceTree = "<group>";
-		};
-		37B09EB81EC05E2900B04C32 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				37B09EBB1EC0655D00B04C32 /* iOS_Network.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +272,7 @@
 			files = (
 				370F38F41EC0401500475B3B /* LaunchScreen.storyboard in Resources */,
 				370F38F11EC0401500475B3B /* Assets.xcassets in Resources */,
-				37B09EBC1EC0655D00B04C32 /* iOS_Network.png in Resources */,
+				1842B9231EC1FF5E000DC5C8 /* iOS_Network.png in Resources */,
 				370F38EF1EC0401500475B3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				370F38EC1EC0401500475B3B /* ViewController.m in Sources */,
-				1842B91D1EC1F316000DC5C8 /* Test.m in Sources */,
+				1842B9241EC1FF5E000DC5C8 /* Test.m in Sources */,
 				370F38E91EC0401500475B3B /* AppDelegate.m in Sources */,
 				370F38E61EC0401500475B3B /* main.m in Sources */,
 			);
